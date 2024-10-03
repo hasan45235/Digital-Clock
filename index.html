@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./clock.webp" type="image/x-icon">
+    <title>Digital Clock</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+        span{
+            font-size: 40px;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px black, 0 0 25px rgb(160, 199, 246), 0 0 5px rgb(144, 204, 247);
+        }
+        small{
+            font-weight: bold;
+            text-shadow: 1px 1px 2px black, 0 0 25px rgb(160, 199, 246), 0 0 5px rgb(144, 204, 247);
+        }
+        .digital{
+            text-align: center;
+            padding: 20px;
+        }
+        .heading{
+            text-align: center;
+            padding-top: 30px;
+        }
+        .clock{
+            background-color: rgb(29, 127, 213);
+            width: max-content;
+            margin: 10px auto;
+            padding: 20px;
+            box-shadow: 2px 2px 4px 2px rgb(3, 156, 252), 2px 3px 10px 2px rgb(3, 156, 252);
+        }
+        .main{
+            margin: 100px 0px;
+
+        }
+    </style>
+</head>
+<body>
+
+<div class="main">
+    <div class="heading">
+        <h1>DIGITAL CLOCK</h1>
+    </div>
+    <div class="clock">
+        
+        <div class="digital">
+           <span id="hours">00</span>:
+           <span id="min">00</span>:
+           <span id="sec">00</span>
+           <sup id="am/pm">00</sup><br>
+           <small id="month">ooo</small>
+           <small id="day">ooooooooo</small>
+           <small id="date">00</small>
+           
+           <small id="year">00</small>
+        </div>
+        
+    </div>
+</div>
+
+
+</body>
+<script src="node.js"></script>
+</html>
